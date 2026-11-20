@@ -1,0 +1,6 @@
+{
+  "name": "NokosDirect",
+  "description": "Platform pemesanan nomor kosong (Nokos) real dengan pembayaran QRIS resmi owner, verifikasi manual admin, notifikasi WhatsApp real-time, dan pelacakan riwayat pesanan lengkap.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

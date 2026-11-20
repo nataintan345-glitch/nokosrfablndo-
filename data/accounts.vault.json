@@ -1,0 +1,21 @@
+{
+  "savedAt": "2026-11-20T15:54:09.978Z",
+  "ownerAuth": {
+    "initialized": true,
+    "ownerEmail": "nataintan345@gmail.com",
+    "passwordHash": "1086192a5bbdb04edba9ceec8f022feea674be795e84a00b06b443077490008e963c8ac6bf0c6396610a8bdf8c2011857f4989939f3f47ce280f17be00846c99",
+    "salt": "5c7b0ae5648613ce068e2cd5668128d51774e90231892dcd"
+  },
+  "users": [
+    {
+      "id": "usr-5fbcfe13",
+      "name": "Rfablndo",
+      "email": "nataintan345@gmail.com",
+      "whatsapp": "6283196921615",
+      "balance": 0,
+      "passwordHash": "1086192a5bbdb04edba9ceec8f022feea674be795e84a00b06b443077490008e963c8ac6bf0c6396610a8bdf8c2011857f4989939f3f47ce280f17be00846c99",
+      "salt": "5c7b0ae5648613ce068e2cd5668128d51774e90231892dcd",
+      "createdAt": "2026-11-20T15:38:33.166Z"
+    }
+  ]
+}

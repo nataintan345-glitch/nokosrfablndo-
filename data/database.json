@@ -1,0 +1,492 @@
+{
+  "ownerAuth": {
+    "initialized": true,
+    "ownerEmail": "nataintan345@gmail.com",
+    "passwordHash": "1086192a5bbdb04edba9ceec8f022feea674be795e84a00b06b443077490008e963c8ac6bf0c6396610a8bdf8c2011857f4989939f3f47ce280f17be00846c99",
+    "salt": "5c7b0ae5648613ce068e2cd5668128d51774e90231892dcd",
+    "sessions": [
+      {
+        "id": "ses-e270bad6",
+        "token": "3ec69558872d2a376447f986649cc8990e81d9a0dc8edc16ba4d13ecae919e13",
+        "role": "owner",
+        "ip": "182.9.232.123",
+        "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+        "uaHash": "424a3f2b1e9815c9f4bd85a3c0f8e554013114b234b78d0f4e661c1539369cd3",
+        "createdAt": "2026-11-20T15:52:46.115Z",
+        "lastSeenAt": "2026-11-20T15:53:56.206Z",
+        "expiresAt": 1795276366115
+      }
+    ]
+  },
+  "securityLogs": [
+    {
+      "id": "sec-8798054e",
+      "level": "info",
+      "event": "OWNER_LOGIN_SUCCESS",
+      "detail": "Owner Utama berhasil masuk dengan verifikasi Gmail & kata sandi.",
+      "ip": "127.0.0.1",
+      "userAgent": "node",
+      "timestamp": "2026-11-20T15:54:09.942Z"
+    },
+    {
+      "id": "sec-463a4edb",
+      "level": "info",
+      "event": "OWNER_LOGIN_SUCCESS",
+      "detail": "Owner Utama berhasil masuk dengan verifikasi Gmail & kata sandi.",
+      "ip": "182.9.232.123",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "timestamp": "2026-11-20T15:52:46.115Z"
+    },
+    {
+      "id": "sec-19c7bc76",
+      "level": "warning",
+      "event": "UNAUTHORIZED_ADMIN_PROBE",
+      "detail": "Akses endpoint POST /api/owner/users/usr-5fbcfe13/adjust-balance ditolak karena token tidak valid.",
+      "ip": "182.9.232.123",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "timestamp": "2026-11-20T15:52:19.958Z"
+    },
+    {
+      "id": "sec-6223c2eb",
+      "level": "warning",
+      "event": "UNAUTHORIZED_OWNER_PROBE",
+      "detail": "Percobaan akses endpoint khusus Owner Utama (POST /api/owner/rentals) tanpa sesi valid.",
+      "ip": "182.9.232.123",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "timestamp": "2026-11-20T15:51:08.671Z"
+    },
+    {
+      "id": "sec-b925c43b",
+      "level": "warning",
+      "event": "UNAUTHORIZED_OWNER_PROBE",
+      "detail": "Percobaan akses endpoint khusus Owner Utama (POST /api/owner/rentals) tanpa sesi valid.",
+      "ip": "182.9.232.123",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "timestamp": "2026-11-20T15:50:16.282Z"
+    },
+    {
+      "id": "sec-8539205a",
+      "level": "warning",
+      "event": "UNAUTHORIZED_OWNER_PROBE",
+      "detail": "Percobaan akses endpoint khusus Owner Utama (POST /api/owner/rentals) tanpa sesi valid.",
+      "ip": "182.9.232.123",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "timestamp": "2026-11-20T15:50:16.096Z"
+    },
+    {
+      "id": "sec-5c3710cd",
+      "level": "warning",
+      "event": "UNAUTHORIZED_OWNER_PROBE",
+      "detail": "Percobaan akses endpoint khusus Owner Utama (POST /api/owner/rentals) tanpa sesi valid.",
+      "ip": "182.9.232.123",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "timestamp": "2026-11-20T15:50:15.276Z"
+    },
+    {
+      "id": "sec-ad6b1de0",
+      "level": "warning",
+      "event": "UNAUTHORIZED_OWNER_PROBE",
+      "detail": "Percobaan akses endpoint khusus Owner Utama (POST /api/owner/rentals) tanpa sesi valid.",
+      "ip": "182.9.232.123",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "timestamp": "2026-11-20T15:50:14.206Z"
+    },
+    {
+      "id": "sec-6ff2af4a",
+      "level": "warning",
+      "event": "UNAUTHORIZED_OWNER_PROBE",
+      "detail": "Percobaan akses endpoint khusus Owner Utama (POST /api/owner/rentals) tanpa sesi valid.",
+      "ip": "182.9.232.123",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "timestamp": "2026-11-20T15:49:59.259Z"
+    },
+    {
+      "id": "sec-7b0adea9",
+      "level": "warning",
+      "event": "UNAUTHORIZED_OWNER_PROBE",
+      "detail": "Percobaan akses endpoint khusus Owner Utama (POST /api/owner/rentals) tanpa sesi valid.",
+      "ip": "182.9.232.123",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "timestamp": "2026-11-20T15:49:40.668Z"
+    },
+    {
+      "id": "sec-fde16eb2",
+      "level": "warning",
+      "event": "UNAUTHORIZED_OWNER_PROBE",
+      "detail": "Percobaan akses endpoint khusus Owner Utama (POST /api/owner/rentals) tanpa sesi valid.",
+      "ip": "182.9.232.123",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "timestamp": "2026-11-20T15:49:19.246Z"
+    },
+    {
+      "id": "sec-4194eb25",
+      "level": "warning",
+      "event": "UNAUTHORIZED_OWNER_PROBE",
+      "detail": "Percobaan akses endpoint khusus Owner Utama (POST /api/owner/rentals/control) tanpa sesi valid.",
+      "ip": "182.9.232.123",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "timestamp": "2026-11-20T15:49:00.381Z"
+    },
+    {
+      "id": "sec-39ac2746",
+      "level": "warning",
+      "event": "UNAUTHORIZED_OWNER_PROBE",
+      "detail": "Percobaan akses endpoint khusus Owner Utama (POST /api/owner/rentals) tanpa sesi valid.",
+      "ip": "182.9.232.123",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "timestamp": "2026-11-20T15:48:48.897Z"
+    },
+    {
+      "id": "sec-1c212534",
+      "level": "warning",
+      "event": "SESSIONS_REVOKED",
+      "detail": "1 sesi Owner dicabut secara paksa.",
+      "ip": "127.0.0.1",
+      "userAgent": "OwnerUnifiedBrowser/1.0",
+      "timestamp": "2026-11-20T15:40:02.608Z"
+    },
+    {
+      "id": "sec-f598c75e",
+      "level": "info",
+      "event": "LOCKS_CLEARED",
+      "detail": "Daftar pemblokiran sementara IP direset oleh Owner Utama.",
+      "ip": "127.0.0.1",
+      "userAgent": "OwnerUnifiedBrowser/1.0",
+      "timestamp": "2026-11-20T15:40:02.590Z"
+    },
+    {
+      "id": "sec-11a2806c",
+      "level": "info",
+      "event": "OWNER_LOGIN_SUCCESS",
+      "detail": "Owner Utama berhasil masuk melalui form Masuk (akses Owner & Pelanggan aktif).",
+      "ip": "127.0.0.1",
+      "userAgent": "OwnerUnifiedBrowser/1.0",
+      "timestamp": "2026-11-20T15:40:02.180Z"
+    },
+    {
+      "id": "sec-debcb1a0",
+      "level": "critical",
+      "event": "OWNER_LOGIN_FAILED",
+      "detail": "Percobaan masuk Owner via form Masuk gagal ke-3 (na***@gmail.com).",
+      "ip": "198.51.100.88",
+      "userAgent": "curl/7.88.1",
+      "timestamp": "2026-11-20T15:40:02.107Z"
+    },
+    {
+      "id": "sec-c24b4406",
+      "level": "warning",
+      "event": "OWNER_LOGIN_FAILED",
+      "detail": "Percobaan masuk Owner via form Masuk gagal ke-2 (na***@gmail.com).",
+      "ip": "198.51.100.88",
+      "userAgent": "curl/7.88.1",
+      "timestamp": "2026-11-20T15:40:02.035Z"
+    },
+    {
+      "id": "sec-3c77e877",
+      "level": "warning",
+      "event": "OWNER_LOGIN_FAILED",
+      "detail": "Percobaan masuk Owner via form Masuk gagal ke-1 (na***@gmail.com).",
+      "ip": "198.51.100.88",
+      "userAgent": "curl/7.88.1",
+      "timestamp": "2026-11-20T15:40:01.952Z"
+    },
+    {
+      "id": "sec-d2efd195",
+      "level": "warning",
+      "event": "OWNER_RECOVERY_PROBE",
+      "detail": "Percobaan reset sandi akun Owner Utama lewat form Lupa Sandi pelanggan diblokir.",
+      "ip": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "timestamp": "2026-11-20T15:40:01.857Z"
+    },
+    {
+      "id": "sec-08d8fd6c",
+      "level": "warning",
+      "event": "OWNER_REGISTER_PROBE",
+      "detail": "Percobaan mendaftar ulang menggunakan Gmail resmi Owner melalui form pelanggan ditolak.",
+      "ip": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "timestamp": "2026-11-20T15:40:01.837Z"
+    },
+    {
+      "id": "sec-11e1b2d5",
+      "level": "warning",
+      "event": "SESSIONS_REVOKED",
+      "detail": "2 sesi Owner dicabut secara paksa.",
+      "ip": "127.0.0.1",
+      "userAgent": "LegitOwnerBrowser/1.0",
+      "timestamp": "2026-11-20T15:28:10.879Z"
+    },
+    {
+      "id": "sec-a12e58f7",
+      "level": "info",
+      "event": "OWNER_LOGIN_SUCCESS",
+      "detail": "Owner Utama berhasil masuk dengan verifikasi Gmail & kata sandi.",
+      "ip": "127.0.0.1",
+      "userAgent": "LegitOwnerBrowser/1.0",
+      "timestamp": "2026-11-20T15:28:10.782Z"
+    },
+    {
+      "id": "sec-30b811d5",
+      "level": "warning",
+      "event": "UNAUTHORIZED_ADMIN_PROBE",
+      "detail": "Akses endpoint GET /api/owner/bootstrap ditolak karena token tidak valid.",
+      "ip": "127.0.0.1",
+      "userAgent": "LegitOwnerBrowser/1.0",
+      "timestamp": "2026-11-20T15:28:00.602Z"
+    },
+    {
+      "id": "sec-e35b56e9",
+      "level": "critical",
+      "event": "SESSION_HIJACK_BLOCKED",
+      "detail": "Token sesi Owner dicoba digunakan dari browser/perangkat berbeda dan langsung dicabut.",
+      "ip": "127.0.0.1",
+      "userAgent": "HackerBot/9.9",
+      "timestamp": "2026-11-20T15:28:00.575Z"
+    },
+    {
+      "id": "sec-5979649a",
+      "level": "info",
+      "event": "LOCKS_CLEARED",
+      "detail": "Daftar pemblokiran sementara IP direset oleh Owner Utama.",
+      "ip": "127.0.0.1",
+      "userAgent": "LegitOwnerBrowser/1.0",
+      "timestamp": "2026-11-20T15:28:00.542Z"
+    },
+    {
+      "id": "sec-52909d2c",
+      "level": "info",
+      "event": "OWNER_LOGIN_SUCCESS",
+      "detail": "Owner Utama berhasil masuk dengan verifikasi Gmail & kata sandi.",
+      "ip": "127.0.0.1",
+      "userAgent": "LegitOwnerBrowser/1.0",
+      "timestamp": "2026-11-20T15:28:00.361Z"
+    },
+    {
+      "id": "sec-0f2aed09",
+      "level": "info",
+      "event": "OWNER_LOGIN_SUCCESS",
+      "detail": "Owner Utama berhasil masuk dengan verifikasi Gmail & kata sandi.",
+      "ip": "127.0.0.1",
+      "userAgent": "LegitOwnerBrowser/1.0",
+      "timestamp": "2026-11-20T15:27:45.877Z"
+    },
+    {
+      "id": "sec-246c5f5f",
+      "level": "critical",
+      "event": "OWNER_LOGIN_FAILED",
+      "detail": "Percobaan masuk Owner Utama gagal ke-3 (email: na***@gmail.com).",
+      "ip": "198.51.100.77",
+      "userAgent": "curl/7.88.1",
+      "timestamp": "2026-11-20T15:27:45.809Z"
+    },
+    {
+      "id": "sec-b0c7cd91",
+      "level": "warning",
+      "event": "OWNER_LOGIN_FAILED",
+      "detail": "Percobaan masuk Owner Utama gagal ke-2 (email: na***@gmail.com).",
+      "ip": "198.51.100.77",
+      "userAgent": "curl/7.88.1",
+      "timestamp": "2026-11-20T15:27:45.740Z"
+    },
+    {
+      "id": "sec-f9de6f01",
+      "level": "warning",
+      "event": "OWNER_LOGIN_FAILED",
+      "detail": "Percobaan masuk Owner Utama gagal ke-1 (email: na***@gmail.com).",
+      "ip": "198.51.100.77",
+      "userAgent": "curl/7.88.1",
+      "timestamp": "2026-11-20T15:27:45.652Z"
+    },
+    {
+      "id": "sec-01143a1c",
+      "level": "critical",
+      "event": "SETUP_ENDPOINT_PROBE",
+      "detail": "Percobaan mengakses endpoint setup owner yang sudah dikunci permanen.",
+      "ip": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "timestamp": "2026-11-20T15:27:45.557Z"
+    }
+  ],
+  "rentalAccounts": [
+    {
+      "id": "SEWA-5B7E1A",
+      "tenantName": "lorzoranokoa",
+      "username": "lorzoraa",
+      "tenantWhatsapp": "6283196921615",
+      "durationDays": 4,
+      "priceAmount": 2000,
+      "note": "Silahkan menikmati dan kepuasan",
+      "status": "active",
+      "startedAt": "2026-11-20T15:53:03.667Z",
+      "expiresAt": "2026-11-24T15:53:03.667Z",
+      "createdAt": "2026-11-20T15:53:03.667Z",
+      "updatedAt": "2026-11-20T15:53:15.113Z",
+      "lastLoginAt": null,
+      "passwordHash": "b213cecce4dbc692521f88e52f4beed482439cedc97cbd801b2126015f56fbdf4772ff5d5bd49a6be96d3bfa4fc8adab52ada2afcd35529598dad9f2a3dcdbac",
+      "salt": "704c7dd55b76c991b5bb9ca04d2df886"
+    }
+  ],
+  "rentalControl": {
+    "webLockMode": true,
+    "lockMessage": "Masa sewa website telah berakhir. Hubungi Owner untuk perpanjangan layanan."
+  },
+  "storeOperation": {
+    "mode": "open",
+    "autoBySchedule": false,
+    "openDays": [
+      "Sen",
+      "Sel",
+      "Rab",
+      "Kam",
+      "Jum",
+      "Sab",
+      "Min"
+    ],
+    "openTime": "08:00",
+    "closeTime": "22:00",
+    "openDescription": "Layanan order Nokos & pengisian saldo aktif penuh. OTP masuk otomatis & cepat.",
+    "closeDescription": "Toko sedang tutup sementara di luar jam operasional. Pesanan dibuka kembali sesuai jadwal.",
+    "maintenanceDescription": "Sistem sedang dalam pemeliharaan/update server agar layanan makin lancar. Mohon tunggu sebentar.",
+    "updatedAt": "2026-11-20T15:54:09.973Z"
+  },
+  "users": [
+    {
+      "id": "usr-5fbcfe13",
+      "name": "Rfablndo",
+      "email": "nataintan345@gmail.com",
+      "whatsapp": "6283196921615",
+      "balance": 0,
+      "passwordHash": "1086192a5bbdb04edba9ceec8f022feea674be795e84a00b06b443077490008e963c8ac6bf0c6396610a8bdf8c2011857f4989939f3f47ce280f17be00846c99",
+      "salt": "5c7b0ae5648613ce068e2cd5668128d51774e90231892dcd",
+      "createdAt": "2026-11-20T15:38:33.166Z"
+    }
+  ],
+  "userSessions": [
+    {
+      "token": "723a0ade194da8002235338796c8553d91a6d5ebce2c8291e22eb2c975cf14a4",
+      "userId": "usr-5fbcfe13",
+      "createdAt": "2026-11-20T15:38:33.166Z",
+      "expiresAt": 1795793913166
+    }
+  ],
+  "settings": {
+    "storeName": "nokosrfablndo",
+    "ownerWhatsapp": "",
+    "ownerTelegram": "",
+    "qrisImageUrl": null,
+    "qrisMerchantName": "nokosrfablndo Official",
+    "paymentInstruction": "Scan QRIS di atas sesuai nominal total pesanan, lalu unggah screenshot bukti pembayaran untuk diverifikasi admin.",
+    "whatsappMode": "direct",
+    "whatsappApiToken": "",
+    "whatsappWebhookUrl": "",
+    "notifyOnNewOrder": false,
+    "notifyOnPaymentProof": true,
+    "nokosProviderMode": "manual",
+    "nokosApiKey": "",
+    "nokosBaseUrl": ""
+  },
+  "services": [
+    {
+      "id": "srv-wa-id",
+      "appName": "WhatsApp",
+      "country": "Indonesia",
+      "countryCode": "+62",
+      "price": 6500,
+      "stock": 25,
+      "estimatedTime": "1-5 Menit",
+      "description": "Nomor fresh Indonesia untuk registrasi WhatsApp pribadi maupun bisnis.",
+      "active": true,
+      "updatedAt": "2026-11-18T19:27:18.790Z"
+    },
+    {
+      "id": "srv-tg-id",
+      "appName": "Telegram",
+      "country": "Indonesia",
+      "countryCode": "+62",
+      "price": 5500,
+      "stock": 30,
+      "estimatedTime": "1-5 Menit",
+      "description": "Nomor virtual Indonesia siap terima OTP masuk Telegram.",
+      "active": true,
+      "updatedAt": "2026-11-18T19:27:18.790Z"
+    },
+    {
+      "id": "srv-shopee-id",
+      "appName": "Shopee",
+      "country": "Indonesia",
+      "countryCode": "+62",
+      "price": 5000,
+      "stock": 20,
+      "estimatedTime": "2-5 Menit",
+      "description": "Verifikasi akun baru Shopee Indonesia dengan garansi OTP pertama.",
+      "active": true,
+      "updatedAt": "2026-11-18T19:27:18.790Z"
+    },
+    {
+      "id": "srv-tiktok-id",
+      "appName": "TikTok",
+      "country": "Indonesia",
+      "countryCode": "+62",
+      "price": 4500,
+      "stock": 18,
+      "estimatedTime": "1-5 Menit",
+      "description": "Aktivasi akun TikTok baru tanpa kartu SIM fisik.",
+      "active": true,
+      "updatedAt": "2026-11-18T19:27:18.790Z"
+    },
+    {
+      "id": "srv-google-id",
+      "appName": "Google / Gmail",
+      "country": "Indonesia",
+      "countryCode": "+62",
+      "price": 5000,
+      "stock": 22,
+      "estimatedTime": "1-5 Menit",
+      "description": "Nomor verifikasi SMS pembuatan akun Google / YouTube.",
+      "active": true,
+      "updatedAt": "2026-11-18T19:27:18.790Z"
+    },
+    {
+      "id": "srv-wa-my",
+      "appName": "WhatsApp",
+      "country": "Malaysia",
+      "countryCode": "+60",
+      "price": 9000,
+      "stock": 12,
+      "estimatedTime": "2-7 Menit",
+      "description": "Nomor Malaysia (+60) bersih untuk verifikasi WhatsApp internasional.",
+      "active": true,
+      "updatedAt": "2026-11-18T19:27:18.790Z"
+    },
+    {
+      "id": "srv-tg-us",
+      "appName": "Telegram",
+      "country": "Amerika Serikat",
+      "countryCode": "+1",
+      "price": 11000,
+      "stock": 15,
+      "estimatedTime": "2-7 Menit",
+      "description": "Nomor USA (+1) stabil untuk registrasi akun Telegram.",
+      "active": true,
+      "updatedAt": "2026-11-18T19:27:18.790Z"
+    },
+    {
+      "id": "srv-ig-id",
+      "appName": "Instagram",
+      "country": "Indonesia",
+      "countryCode": "+62",
+      "price": 4500,
+      "stock": 20,
+      "estimatedTime": "1-5 Menit",
+      "description": "Verifikasi nomor HP akun Instagram baru.",
+      "active": true,
+      "updatedAt": "2026-11-18T19:27:18.790Z"
+    }
+  ],
+  "orders": [],
+  "topups": [],
+  "walletTransactions": [],
+  "chatThreads": [],
+  "broadcasts": []
+}
